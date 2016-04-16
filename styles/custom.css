@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ui-footer .ui-title {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+#wrapper {
+	width:auto;
+	align-content:space-around;
+	image-orientation: auto;
+}
+
+#menu {
+	width: 60%;
+	float:left;
+	height:auto;
+	align-items:stretch;
+	text-height:auto;
+	margin-left: 3%;
+}
+
+#logo {
+	float:left;
+	width: 33%;
+	height:auto;
+	margin-right:3%;
+	max-height:inherit;
+	overflow:hidden;
+}
+
+h2 {
+	align-content:center;
+	text-align:center;
+	
+}
+
+h2 + p {
+	margin-bottom: 0;
+	text-align:left;
+}
+
+h3 + p, h4 + p {
+	margin-top: 0;	
+}
