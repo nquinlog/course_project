@@ -12,6 +12,10 @@
 	color:#F767E0
 }
 
+.ui-grid-a {
+	height:70%;	
+}
+
 .ui-block-a {
 	width:30%;
 	height:auto;
@@ -20,7 +24,7 @@
 .ui-block-b {
 	margin-top:10%;
 	width:60%;
-	height:100%;
+	height:auto;
 	align-content:center;
 }
 
@@ -39,6 +43,12 @@
 #favorites {
 	background:url(../themes/images/background.png);
 	background-position:center;
+	background-size:auto;
+}
+
+#random {
+	background:url(../themes/images/background.png);
+	background-position:inherit;
 	background-size:auto;
 }
 
