@@ -29,3 +29,33 @@
 	background-position:center;
 	background-size:auto;
 }
+
+#create {
+	background:url(../themes/images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#favorites {
+	background:url(../themes/images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#share {
+	background:url(../themes/images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#published {
+	background:url(../themes/images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#about {
+	background:url(../themes/images/background.png);
+	background-position:center;
+	background-size:auto;
+}
