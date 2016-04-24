@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#home {
+	background:url(images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#create {
+	background:url(images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#favorites {
+	background:url(images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#random {
+	background:url(images/background.png);
+	background-position:inherit;
+	background-size:auto;
+}
+
+#share {
+	background:url(images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#published {
+	background:url(images/background.png);
+	background-position:center;
+	background-size:auto;
+}
+
+#about {
+	background:url(images/background.png);
+	background-position:center;
+	background-size:auto;
+}
