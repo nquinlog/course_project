@@ -1,4 +1,4 @@
 <?php
-  phpinfo();
-  resource sqlite_open ( string $test [, int $mode = 0666 [, string &$error_message ]] );
+      $conn = mysql_connect('localhost', 'root', '');
+      $db   = mysql_select_db('test');
 ?>
