@@ -11,15 +11,6 @@
 		$cookiechunks = $_POST['checkcookie'];
 		$fruit = $_POST['checkfruit'];
 		
-		echo "<p>The data was:</p>" .
-			"<ul>" .
-			"<li>name = $name</li>" .
-			"<li>base = $base</li>" .
-			"<li>checks = $nuts </li>" .
-			"<li>$sprinkles </li>" .
-			"<li>$cookiechunks </li>" .
-			"<li>$fruit </li>" .
-			"</ul>";
 		if(mysql_query("INSERT INTO user_t VALUES('$name');")) {
 			echo "purchased";
 		} else {

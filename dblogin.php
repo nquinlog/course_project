@@ -1,4 +1,4 @@
 <?php
-  $conn = mysql_connect('http://sotd.us/nelsquinlog/course_project/test.sql', 'root', '');
-  $db   = mysql_select_db('test');
+  $conn = mysql_connect('127.0.0.1::1', 'root', '');
+  $db   = mysql_select_db('rockslide');
 ?>
