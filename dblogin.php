@@ -1,4 +1,5 @@
 <?php
-  $conn = mysql_connect('localhost', 'root', '');
-  $db   = mysql_select_db('rockslide');
+  $conn = new mysqli('localhost', 'root', '','rockslide');
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 ?>

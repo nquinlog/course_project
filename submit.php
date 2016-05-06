@@ -21,4 +21,6 @@
 	} else {
 		echo "nothing stored";
 	}	
+	
+	$conn->close();
 ?>
